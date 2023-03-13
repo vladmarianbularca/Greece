@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+.round {
+  max-width: 100%;
+  border: 5px;
+  color: gray;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  background-position: center;
+}
+
+.romania {
+  width: 100px;
+  object-fit: cover;
+  padding: 1rem 0;
+}
+
+.main-navbar-links {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.main-navbar-links .main-navbar-link {
+  display: inline-block;
+  margin-left: 50px;
+  text-decoration: none;
+}
+.zona_prezentare_generala {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.main-navbar-phone {
+  background-color: rgb(0, 0, 0, 0.1);
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 15px;
+  transition: 0.3s;
+  font-size: 1.5rem;
+}
+
+a:hover {
+  background-color: rgb(0, 0, 0, 0.1);
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-navbar {
+  background-color: burlywood;
+  list-style-type: none;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-carousel .carousel-item-img {
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  margin-top: 0%;
+  height: 40%;
+}
+
+.main-carousel .carousel-item-img:before {
+  content: "";
+  display: block;
+  padding-top: 50%;
+  max-width: 100%;
+}
+
+.main-navbar-links {
+  display: flex;
+}
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li a {
+  display: inline-block;
+}
+
+.features {
+  background-color: rgb(91, 187, 211);
+  display: flex;
+}
+
+.btn-primary,
+.btn-secondary {
+  outline: auto;
+  background-color: none;
+}
+
+.features > div {
+  width: 31.333%;
+  margin-bottom: 50 px;
+  padding: 0 20px;
+  padding: 50px 0 50px 0;
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(35, 100, 161);
+  text-align: center;
+}
+
+.backArrow {
+  display: block;
+  height: 100%;
+  width: auto;
+  overflow: hidden;
+}
+
+.features > div:nth-child(n + 2) {
+  width: 50%;
+  background: green;
+}
+.features > div:first-child {
+  width: 100%;
+}
+
+.input-group {
+  box-shadow: none;
+}
+
+.row {
+  align-items: center;
+  text-align-last: cent;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
